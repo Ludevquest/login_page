@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Ludevquest</title>
+    <link rel="stylesheet" href="./public/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    <h1>Bem-vindo(a) ao Dashboard</h1>
+    <p>Você fez login com sucesso!</p>
+
+    <h2>Gráfico de Dados</h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+
+    <h2>Tabela de Dados</h2>
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Os dados da tabela serão preenchidos dinamicamente -->
+        </tbody>
+    </table>
+
+    <button id="logout">Logout</button>
+</div>
+</body>
+</html>

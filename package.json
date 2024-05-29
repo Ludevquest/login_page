@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "db.json",
+  "description": "Esse é o código inicial para o desenvolvimento do projeto da página de login.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
