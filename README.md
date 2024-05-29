@@ -1,4 +1,4 @@
-# Projeto Login
+# Login Page
 
 ## 🚀 Sobre o projeto
 Este projeto consiste em um sistema de login e cadastro de usuários com redirecionamento para um dashboard. <br>
